@@ -1,7 +1,15 @@
-simpleconfig
+yajsonfig
 ============
 
-Return a json file with the configuration needed by your project.
+Jet Another simple json configuration package for your projects.
+
+Usage
+-----
+```javascript
+const config = require('yajsonfig')(__dirname + '/config.json');
+
+console.log('My configuration is ', config);
+```
 
 Extras
 ------
