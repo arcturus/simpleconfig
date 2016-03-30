@@ -17,6 +17,10 @@
   "engines": {
     "nodejs": ">=4.2.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arcturus/yajsonfig.git"
+  },
   "devDependencies": {
     "coveralls": "^2.11.9",
     "istanbul": "^0.4.2",
