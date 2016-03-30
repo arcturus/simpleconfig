@@ -4,7 +4,8 @@
   "description": "Simple configuration via json files and environment variables",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha"
+    "test": "./node_modules/.bin/mocha",
+    "coverage": "./node_modules/.bin/istanbul cover _mocha -- -R spec"
   },
   "keywords": [
     "json",
@@ -17,6 +18,7 @@
     "nodejs": ">=4.2.0"
   },
   "devDependencies": {
+    "istanbul": "^0.4.2",
     "mocha": "^2.4.5"
   }
 }
