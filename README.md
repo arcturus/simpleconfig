@@ -1,6 +1,6 @@
-yajsonfig  [![Build Status](https://travis-ci.org/arcturus/yajsonfig.svg?branch=master)](https://travis-ci.org/arcturus/yajsonfig) [![Coverage Status](https://coveralls.io/repos/github/arcturus/yajsonfig/badge.svg?branch=master)](https://coveralls.io/github/arcturus/yajsonfig?branch=master)
-
+yajsonfig
 ==========
+[![Build Status](https://travis-ci.org/arcturus/yajsonfig.svg?branch=master)](https://travis-ci.org/arcturus/yajsonfig) [![Coverage Status](https://coveralls.io/repos/github/arcturus/yajsonfig/badge.svg?branch=master)](https://coveralls.io/github/arcturus/yajsonfig?branch=master)
 
 Jet Another simple json configuration package for your projects.
 
