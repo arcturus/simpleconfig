@@ -1,5 +1,5 @@
-yajsonfig
-============
+yajsonfig  [![Build Status](https://travis-ci.org/arcturus/yajsonfig.svg?branch=master)](https://travis-ci.org/arcturus/yajsonfig)
+==========
 
 Jet Another simple json configuration package for your projects.
 
