@@ -35,7 +35,7 @@ export SIMPLECONFIG='MY_PROJECT_'
 And then setup as many variables as you want:
 
 ```bash
-export MY_PROJECT_directory=/tmp/another
+export MY_PROJECT_DIRECTORY=/tmp/another
 ```
 
 Your config object will come like:
