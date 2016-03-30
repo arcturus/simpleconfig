@@ -1,0 +1,19 @@
+{
+  "name": "simpleconfig",
+  "version": "1.0.0",
+  "description": "Simple configuration via json files and environment variables",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "json",
+    "config",
+    "simple"
+  ],
+  "author": "Francisco Jordano <francisco@jordano.es>",
+  "license": "MPL-2.0",
+  "engines": {
+    "nodejs": ">=4.2.0"
+  }
+}
