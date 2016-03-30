@@ -4,7 +4,7 @@
   "description": "Simple configuration via json files and environment variables",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha"
   },
   "keywords": [
     "json",
@@ -15,5 +15,8 @@
   "license": "MPL-2.0",
   "engines": {
     "nodejs": ">=4.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5"
   }
 }
