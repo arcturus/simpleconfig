@@ -48,4 +48,12 @@ describe('configuration overwrite', () => {
     const config = require('../index.js')(__dirname + '/config_example.json');
     assert.equal(config.port, 1000);
   });
+
+  it('should overwrite if no prefix setup', () => {
+    delete(process.env['SIMPLECONFIG']);
+    delete(process.env['MY_TEST_PORT']);
+    process.env['PORT'] = 6666;
+    const config = require('../index.js')(__dirname + '/config_example.json');
+    assert.equal(config.port, 6666);
+  });
 });
